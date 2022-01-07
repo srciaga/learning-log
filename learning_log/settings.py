@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import os
 import django_heroku
 from pathlib import Path
 
@@ -136,3 +137,8 @@ LOGIN_URL = 'users:login'
 
 # Heroku settings.
 django_heroku.settings(locals())
+
+if os.environ.get('DEBUG') == 'TRUE':
+    DEBUG = True
+if os.environ.get('DEBUG') == 'FALSE':
+    DEBUG = False
