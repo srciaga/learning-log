@@ -1,6 +1,6 @@
 # 📝 [Learning Log](https://sr-learning-log.herokuapp.com/)  
   
-![Learning Log Homepage](https://i.imgur.com/yH6Goul.png)
+![Learning Log Screenshots](https://i.imgur.com/99jPqMP.png)
   
 [Learning Log](https://sr-learning-log.herokuapp.com/) is a web app that allows users to log the topics they’re interested in and to make journal entries as they learn about each topic.
 
